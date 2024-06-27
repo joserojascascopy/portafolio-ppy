@@ -1,104 +1,173 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
-        <title>Mi Portafolio Personal</title>
-        <link rel="stylesheet" href="style.css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-
-    </head>
-    <body>
-        <header>
-            <h1>José Rojas</h1>
-            <h2>Web Developer</h2>
-            <nav>
-                <ul>
-                    <a class="menu-item" href="#acerca-de-mi">Acerca de mí</a>
-                    <a class="menu-item" href="#habilidades">Habilidades</a>
-                    <a class="menu-item" href="#experiencia">Experiencia</a>
-                    <a class="menu-item" href="#proyectos">Proyectos</a>
-                    <a class="menu-item" href="#contacto">Contacto</a>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section id="acerca-de-mi">
-                <h3>Acerca de mi</h3>
-                <p> Como desarrollador web junior, fusiono mi pasión por el diseño y la
-                    programación para crear experiencias web excepcionales. Me esfuerzo por
-                    cada línea de código y cada detalle de diseño para asegurarme de que mis
-                    sitios web sean visualmente atractivos, funcionales y accesibles para
-                    todos. Estoy comprometido a seguir aprendiendo y mejorando continuamente
-                    mientras busco oportunidades desafiantes que amplíen mi experiencia en el
-                    desarrollo web.
+  <head>
+    <title>Mi Portafolio Personal</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-sans text-[#3e363f]">
+    <header>
+      <nav class="fixed w-full h-14 bg-white">
+        <div class="w-full h-full flex justify-center space-x-4">
+          <a
+            class="my-auto p-2 hover:bg-[#ddd] transition-[background-color]"
+            href="#acerca-de-mi"
+            >Acerca de mí</a
+          >
+          <a
+            class="my-auto p-2 hover:bg-[#ddd] transition-[background-color]"
+            href="#habilidades"
+            >Habilidades</a
+          >
+          <a
+            class="my-auto p-2 hover:bg-[#ddd] transition-[background-color]"
+            href="#experiencia"
+            >Experiencia</a
+          >
+          <a
+            class="my-auto p-2 hover:bg-[#ddd] transition-[background-color]"
+            href="#proyectos"
+            >Proyectos</a
+          >
+          <a
+            class="my-auto p-2 hover:bg-[#ddd] transition-[background-color]"
+            href="#contacto"
+            >Contacto</a
+          >
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="space-y-8 pt-12 mb-8">
+        <div class="bg-[#333] text-white text-center space-y-4 py-8">
+          <h1 class="text-4xl">José Rojas</h1>
+          <h2 class="text-xl">Web Developer</h2>
+        </div>
+        <div class="container mx-auto space-y-5">
+          <section
+            id="acerca-de-mi"
+            class="border border-[#ddd] p-5 rounded-md shadow-sm text-justify"
+          >
+            <h3 class="text-xl font-bold pb-4">Acerca de mi</h3>
+            <p>
+              Como desarrollador web junior, fusiono mi pasión por el diseño y
+              la programación para crear experiencias web excepcionales. Me
+              esfuerzo por cada línea de código y cada detalle de diseño para
+              asegurarme de que mis sitios web sean visualmente atractivos,
+              funcionales y accesibles para todos. Estoy comprometido a seguir
+              aprendiendo y mejorando continuamente mientras busco oportunidades
+              desafiantes que amplíen mi experiencia en el desarrollo web.
+            </p>
+          </section>
+          <section
+            id="habilidades"
+            class="border border-[#ddd] p-5 rounded-md shadow-sm"
+          >
+            <h3 class="text-xl font-bold pb-4">Habilidades</h3>
+            <ul class="flex space-x-4">
+              <li class="border border-[#ddd] rounded-md p-1.5">HTML</li>
+              <li class="border border-[#ddd] rounded-md p-1.5">CSS</li>
+              <li class="border border-[#ddd] rounded-md p-1.5">JavaScript</li>
+              <li class="border border-[#ddd] rounded-md p-1.5">Git</li>
+            </ul>
+          </section>
+          <section
+            id="experiencia"
+            class="border border-[#ddd] p-5 rounded-md shadow-sm"
+          >
+            <h3 class="text-xl font-bold pb-4">Experiencia</h3>
+            <ul class="space-y-4">
+              <li>
+                <p class="pb-2">
+                  <span class="font-semibold">Empresa X</span> (2022 - Presente)
                 </p>
-            </section>
-            <section id="habilidades">
-                <h3>
-                    <p>Habilidades</p>
-                </h3>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Git</li>
+                <ul class="space-y-1.5 indent-2">
+                  <li>Desarrollador Web Junior</li>
+                  <li>
+                    Responsable del desarrollo y mantenimiento de la página web
+                    de la empresa
+                  </li>
                 </ul>
-            </section>
-            <section id="experiencia">
-                <h3>Experiencia</h3>
-                <ul>
-                    <li>
-                        <b>Empresa X</b> (2022 - Presente)
-                        <ul>
-                            <li>Desarrollador Web Junior</li>
-                            <li>Responsable del desarrollo y mantenimiento de la página web de la empresa</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <b>Empresa Y</b> (2020 - 2022)
-                        <ul>
-                            <li>Diseñador Web</li>
-                            <li>Responsable del diseño y maquetación de la página web de la empresa</li>
-                        </ul>
-                    </li>
+              </li>
+              <li>
+                <p class="pb-2">
+                  <span class="font-semibold">Empresa Y</span> (2020 - 2022)
+                </p>
+                <ul class="space-y-1.5 indent-2">
+                  <li>Diseñador Web</li>
+                  <li>
+                    Responsable del diseño y maquetación de la página web de la
+                    empresa
+                  </li>
                 </ul>
-            </section>
-            <section id="proyectos">
-                <h3>Proyectos</h3>
-                <ul>
-                    <li>
-                        <a href="https://playtictactoe.org/">Tic-Tac-Toe</a>
-                        <p>Descripción del proyecto 1</p>
-                    </li>
-                    <li>
-                        <a href="https://lapalabradeldia.com/">Wordle</a>
-                        <p>Descripción del proyecto 2</p>
-                    </li>
+              </li>
+            </ul>
+          </section>
+          <section
+            id="proyectos"
+            class="border border-[#ddd] p-5 rounded-md shadow-sm"
+          >
+            <h3 class="text-xl font-bold pb-4">Proyectos</h3>
+            <ul class="space-y-4">
+              <li>
+                <a
+                  class="font-semibold hover:underline"
+                  href="https://playtictactoe.org/"
+                  >Tic-Tac-Toe</a
+                >
+                <p>Descripción del proyecto 1</p>
+              </li>
+              <li>
+                <a
+                  class="font-semibold hover:underline"
+                  href="https://lapalabradeldia.com/"
+                  >Wordle</a
+                >
+                <p>Descripción del proyecto 2</p>
+              </li>
+            </ul>
+          </section>
+          <section
+            id="contacto"
+            class="border border-[#ddd] p-5 rounded-md shadow-sm"
+          >
+            <h3 class="text-xl font-bold pb-4">Contacto</h3>
+            <ul class="space-y-4">
+              <li>Email: joserojascascopy@hotmail.com</li>
+              <li>Teléfono: 123-456</li>
+              <li>
+                <p class="pb-2">Redes Sociales:</p>
+                <ul id="sociales" class="flex space-x-4">
+                  <li>
+                    <a
+                      class="fa fa-facebook"
+                      href="https://www.facebook.com/?locale=es_LA"
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      class="fa fa-twitter"
+                      href="https://www.instagram.com/"
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      class="fa fa-linkedin"
+                      href="https://es.linkedin.com/"
+                    ></a>
+                  </li>
                 </ul>
-            </section>
-            <section id="contacto">
-                <h3>Contacto</h3>
-                <ul>
-                    <li>Email: joserojascascopy@hotmail.com</li>
-                    <li>Teléfono: 123-456</li>
-                    <li>Redes Sociales:
-                        <ul id="sociales">
-                            <li>
-                                <a class="fa fa-facebook" href="https://www.facebook.com/?locale=es_LA"></a>
-                            </li>
-                            <li>
-                                <a class="fa fa-twitter" href="https://www.instagram.com/"></a>
-                            </li>
-                            <li>
-                                <a class="fa fa-linkedin" href="https://es.linkedin.com/"></a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </section>
-        </main>
-        <footer>
-            <p>Copyright &copy; 2024</p>
-        </footer>
-    </body>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-[#333] text-white text-center py-5">
+      <p>Copyright &copy; 2024</p>
+    </footer>
+  </body>
 </html>
